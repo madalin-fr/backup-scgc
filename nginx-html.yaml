@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-html
+data:
+ index.html: |
+    <html><body>The ideal homework 2</body></html>
